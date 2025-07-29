@@ -1,0 +1,27 @@
+{
+  "name": "web-memory-analyzer",
+  "version": "0.1.0",
+  "description": "analyzer for web memory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["web", "memory", "analyzer"],
+  "author": "helinjiang",
+  "license": "MIT", 
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "csv-writer": "^1.6.0",
+    "fs-extra": "^11.3.0",
+    "heap-snapshot-toolkit": "^1.1.2",
+    "moment": "^2.30.1",
+    "pidusage": "^4.0.1",
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.0.13",
+    "@types/pidusage": "^2.0.5",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }}
